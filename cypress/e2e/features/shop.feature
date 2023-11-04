@@ -11,5 +11,5 @@ Feature: 02 - Crowdar Academy 2023 - Shop Store
         Then Verifico que ingreso al rango de busqueda deseada
 
         Examples:
-          | user                                            |   pass                |
-          | academyCypress_usuarioNormal@crowdaronline.com  |   Crowdar.2023!       |
+          | user                        |   pass            |
+          | mita_cervantes@hotmail.com  |   Cmita2021#      |

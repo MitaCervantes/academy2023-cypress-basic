@@ -1,0 +1,5 @@
+{
+    "inpEmailReg": "#reg_email",
+    "inpPassReg": "#reg_password",
+    "btnRegistration": ":nth-child(3) > .woocommerce-Button"
+}

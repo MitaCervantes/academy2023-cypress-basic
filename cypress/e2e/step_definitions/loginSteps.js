@@ -10,12 +10,20 @@ Given('Me logueo como usuario correctamente', () => {
         //LoginPage.visitarPagina();
         LoginPage.doLogin(json);
        
-
     })
 })
 
 Given('Me logueo como admin correctamente', () => {
     cy.fixture('examples/LoginAdminExample.json').then((json) => {
+        cy.visit("/my-account/");
+        //LoginPage.visitarPagina();
+        LoginPage.doLoginAdmin(json);
+
+    })
+})
+
+Given('Me logueo con credenciales incorrectas', () => {
+    cy.fixture('examples/LoginFallido.json').then((json) => {
         cy.visit("/my-account/");
         //LoginPage.visitarPagina();
         LoginPage.doLoginAdmin(json);

@@ -15,7 +15,7 @@
     "cy:spec": "cypress run --spec **/*.spec.js",
     "cy:reporter": "cypress run --reporter reporters/lippia-reporter/lippia-reporter.js",
     "cy:local": "./node_modules/.bin/cypress run",
-    "cy:run": "cypress run --record --key CYPRESS_RECORD_KEY"
+    "cy:run": "cypress run --record --key 143ce492-2155-4d07-87dc-2bb74a38d74c"
   },
   "keywords": [
     "cypress"

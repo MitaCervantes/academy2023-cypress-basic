@@ -8,8 +8,12 @@ import HomeLocators from './locators/HomeLocators.json'
 
 class HomePage{
     verificarHome = () => {
-        cy.get(HomeLocators.tituloHome).should('be.visible');
+        cy.get(HomeLocators.divLoginReg).should('be.visible');
         cy.get(HomeLocators.tituloHome).should('contain.text', 'Hello');
+    }
+
+    verificarInicioParaLogin = () => {
+        cy.get(HomeLocators.divLoginReg).should('be.visible');      
     }
 
 }
