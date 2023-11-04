@@ -27,3 +27,10 @@ Then('Verifico que ingreso al rango de busqueda deseada', () => {
     ShopPage.verificarRangoBusquedaShop();
 })
 
+Then('hago clic en el botón de menú Home', () => {
+    ShopPage.clickMenuHome();
+})
+
+Then('debería ver sliders en la página de inicio', () => {
+    ShopPage.slidersVerification();
+})

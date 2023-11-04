@@ -1,5 +1,4 @@
 Feature: 02 - Registration
-
   
   @Register
   Scenario: Registro como usuario
@@ -17,4 +16,4 @@ Feature: 02 - Registration
 
         Examples:
           | email                   |   pass           |
-          | otroemailv1@hotmail.com |   cypress#2023     |
+          | otroemailv1@hotmail.com |   cypress#2023   |

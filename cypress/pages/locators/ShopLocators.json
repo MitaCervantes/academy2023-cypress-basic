@@ -11,6 +11,7 @@
     "priceMin" : "#min_price",
     "rangoBuscar":".price_label",
     "rangoDesde" : ".from",
-    "rangoHasta" : ".to"
-    
+    "rangoHasta" : ".to",
+    "divSliders" : "#text-22-0-0-1" ,
+    "imgSlider" : ".n2-ss-slide-active > .n2-ss-slide-background > .n2-ss-slide-background-image" 
 } 

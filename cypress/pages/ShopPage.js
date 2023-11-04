@@ -68,6 +68,18 @@ class ShopPage {
     cy.get(ShopLocators.rangoDesde).should('text', '₹323');
     cy.get(ShopLocators.rangoHasta).should('text', '₹500');
   };
+
+  clickMenuHome = () => {
+    cy.get('.woocommerce-breadcrumb > a')
+    .click({ force: true })
+    };
+
+ slidersVerification() {         
+      cy.get(ShopLocators.divSliders).should('be.visible')
+        .get(ShopLocators.imgSlider).should('be.visible');  
+    }    
+
 }
+
 
 export default new ShopPage();
