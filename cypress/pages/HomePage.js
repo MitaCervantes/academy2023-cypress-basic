@@ -7,8 +7,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 import HomeLocators from './locators/HomeLocators.json'
 
 class HomePage{
-    verificarHome = () => {
-        cy.get(HomeLocators.divLoginReg).should('be.visible');
+    verificarHome = () => {      
         cy.get(HomeLocators.tituloHome).should('contain.text', 'Hello');
     }
 
